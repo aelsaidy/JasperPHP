@@ -8,7 +8,7 @@ class JasperPHP
     protected $redirect_output;
     protected $background;
     protected $windows = false;
-    protected $formats = array('pdf', 'rtf', 'xls', 'xlsx', 'docx', 'odt', 'ods', 'pptx', 'csv', 'html', 'xhtml', 'xml', 'jrprint');
+    protected $formats = array('pdf', 'rtf', 'xls', 'xlsx', 'docx', 'odt', 'ods', 'pptx', 'csv', 'html', 'xhtml', 'xml', 'jrprint','print');
     protected $resource_directory; // Path to report resource dir or jar file
 
     function __construct($resource_dir = false)
